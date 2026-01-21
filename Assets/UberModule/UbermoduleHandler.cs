@@ -1177,26 +1177,30 @@ public class UbermoduleHandler : MonoBehaviour {
             {
                 { "Filename", "ubermodulesettings.json" },
                 { "Name", "Ubermodule Settings" },
-                { "Listing", new List<Dictionary<string, object>>{
+                { "Listings", new List<Dictionary<string, object>>{
                     new Dictionary<string, object>
                     {
                         { "Key", "countUnignoredModules" },
-                        { "Text", "Includes ignored modules as possible stages." },
+                        { "Text", "Count All Modules" },
+                        { "Description", "Includes ignored modules as possible stages." },
                     },
                     new Dictionary<string, object>
                     {
                         { "Key", "generateStagesEarly" },
-                        { "Text", "Generates stages for Ubermodule as early as possible. This only considers solvable modules on the bomb, rather than all stages." }
+                        { "Text", "Early Stage Generation" },
+                        { "Description", "Generates stages for Ubermodule as early as possible. This only considers solvable modules on the bomb, rather than all stages." }
                     },
                     new Dictionary<string, object>
                     {
                         { "Key", "hardModeEnable" },
-                        { "Text", "Make Übermodule start in hard mode. This requires inputting the ENTIRE sequence of letters to disarm the module for only 1 stage." }
+                        { "Text", "Enable Hard Mode" },
+                        { "Description", "Make Übermodule start in hard mode. This requires inputting the ENTIRE sequence of letters to disarm the module for only 1 stage." }
                     },
                     new Dictionary<string, object>
                     {
                         { "Key", "dashTimeLengthModern" },
-                        { "Text", "The time it takes to hold for the module to interept a dash instead of a dot." }
+                        { "Text", "Dash Time Threshold" },
+                        { "Description", "The time it takes to hold for the module to interept a dash instead of a dot." }
                     },
                 } }
             }

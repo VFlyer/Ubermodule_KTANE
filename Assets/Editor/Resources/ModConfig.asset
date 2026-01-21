@@ -30,6 +30,6 @@ MonoBehaviour:
 
 
     Source Code: [url=https://github.com/VFlyer/Ubermodule_KTANE]https://github.com/VFlyer/Ubermodule_KTANE[/url]'
-  version: 1.4.2
+  version: 1.4.3
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 8c957c29b553ddb4c99e6d295c3548eb, type: 3}
